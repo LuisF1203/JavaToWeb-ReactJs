@@ -33,7 +33,7 @@ import org.example.Api.JavaToWebApi;
 
 public class MyApi {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         JavaToWebApi web = new JavaToWebApi( "macaco");
 
         web.createApp();
@@ -43,7 +43,6 @@ public class MyApi {
                         web.div("container", web.a("back", "/", "regresar"))
         );
         web.route("Home", "main",
-                headerComponent+
                         web.div("container",
                                 web.h1("title", "Bienvenido a JavaToWeb") +
                                         web.div("mySocials", web.a("socialGithub", "https://github.com/LuisF1203", "ver github"))
