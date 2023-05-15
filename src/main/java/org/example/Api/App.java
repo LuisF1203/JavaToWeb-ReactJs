@@ -56,7 +56,7 @@ public class App {
 
 
 
-        Routes.route("Home", "main",
+        web.route("Home", "main",
                 headerComponent+
                         web.div("container",
                                 web.div("banner",
@@ -97,19 +97,19 @@ public class App {
 
 
 
-        Routes.route("NotFound", "main",
+        web.route("NotFound", "main",
                 web.h1("title", "LO LAMENTO :(") +
                         web.div("container", web.a("back", "/", "regresar"))
         );
 
-        Routes.route("Socials", "main",
+        web.route("Socials", "main",
                 headerComponent+
                         web.div("container",
                                 web.h3("subtitle", "Esta es mi web social") +
                                         web.div("mySocials", web.a("socialIsnsta", "https://instagram.com", "ver insta"))
                         ));
 
-        Routes.route("School", "main",
+        web.route("School", "main",
                 headerComponent+
                         web.div("container",
                                 web.h1("title", "Bienvenido a School\n") +
@@ -117,7 +117,7 @@ public class App {
                                         web.div("content", web.p("txt", "holaaa"))
                         ));
 
-        Routes.route("ChatGPT", "main",
+        web.route("ChatGPT", "main",
                 headerComponent+
                         web.h1("title", "Bienvenido a ChatGPT") +
                         web.div("container", web.a("back", "/", "Regresar"))
@@ -152,7 +152,7 @@ public class App {
         mapStylesPerIdT.put("productDescription", "color: #666666; font-size: 16px;");
 
 
-        Routes.route("Store", "main",
+        web.route("Store", "main",
                 headerComponent+
                         web.div("container",
                                 web.div("content", web.p("txt", "Descubre nuestros productos")) +

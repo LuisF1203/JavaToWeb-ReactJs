@@ -327,6 +327,12 @@ public class JavaToWebApi {
         Routes.createNewRoute(path, name);
     }
 
+    public void route(String routeName, String targetId,String element) throws IOException {
+        Routes.route(routeName,targetId,element);
+    }
+
+
+
     /**
      * Crea una nueva aplicación.
      *
