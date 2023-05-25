@@ -14,7 +14,7 @@ JavaToWebApi is a library that allows you to generate a web API from Java code.
 
 ## Installation
 
-To use JavaToWebApi, you need to include the library in your Java project. You can download the library from [here](https://example.com/javatowebapi) and add it to your project's dependencies.
+To use JavaToWebApi, you need to include the library in your Java project. You can download the library from [here]([https://example.com/javatowebapi](https://github.com/LuisF1203/JavaToWeb-ReactJs/archive/refs/heads/master.zip)) and add it to your project's dependencies.
 
 ## Usage
 
